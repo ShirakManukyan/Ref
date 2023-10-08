@@ -35,6 +35,7 @@ function App () {
             <form onSubmit={send}>
                 <input type='text' ref= {nameField}/>
                 <button type='submit'>Click to Send</button>
+                <input type='button' value={'+'}/>
             </form>
         </div>
     </>
