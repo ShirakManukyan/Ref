@@ -36,6 +36,7 @@ function App () {
                 <input type='text' ref= {nameField}/>
                 <button type='submit'>Click to Send</button>
                 <input type='button' value={'+'}/>
+                <input type='button' value={'-'}/>
             </form>
         </div>
     </>
